@@ -15,7 +15,7 @@ struct OnboardingScreen_1: View {
                 VStack{
                     HStack{
                         Image("street")
-                        Image("car")
+                        Image("mobil")
                         Image("street")
                     }.padding(.bottom)
                     

@@ -35,6 +35,7 @@ struct LaunchScreen: View {
                             Text("CarPark")
                                 .font(.title)
                                 .fontWeight(.semibold)
+                                .foregroundStyle(Color.black)
                         }
                     }
                 }
