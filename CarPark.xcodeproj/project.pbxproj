@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		931A066F2BB2FA7D0030A21B /* CarParkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A066E2BB2FA7D0030A21B /* CarParkApp.swift */; };
+		931A06712BB2FA7D0030A21B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A06702BB2FA7D0030A21B /* ContentView.swift */; };
+		931A06732BB2FA7F0030A21B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931A06722BB2FA7F0030A21B /* Assets.xcassets */; };
+		931A06762BB2FA7F0030A21B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931A06752BB2FA7F0030A21B /* Preview Assets.xcassets */; };
+		931A067F2BB2FBE10030A21B /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A067E2BB2FBE10030A21B /* LaunchScreen.swift */; };
+		931A06822BB306F30030A21B /* OnboardingScreen_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A06812BB306F30030A21B /* OnboardingScreen_1.swift */; };
+		931A06842BB319C80030A21B /* OnboardingScreen_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A06832BB319C80030A21B /* OnboardingScreen_2.swift */; };
+		931A06862BB31D030030A21B /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A06852BB31D030030A21B /* HomeScreen.swift */; };
+		931A06882BB324D80030A21B /* FeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A06872BB324D80030A21B /* FeaturesView.swift */; };
+		931A068B2BB326E80030A21B /* FeatureModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A068A2BB326E80030A21B /* FeatureModels.swift */; };
+		9335B1222BB8552D00B33D3E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9335B1212BB8552D00B33D3E /* MapView.swift */; };
+		9335B1242BB8566D00B33D3E /* Capital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9335B1232BB8566D00B33D3E /* Capital.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		931A066B2BB2FA7D0030A21B /* CarPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		931A066E2BB2FA7D0030A21B /* CarParkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarParkApp.swift; sourceTree = "<group>"; };
+		931A06702BB2FA7D0030A21B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		931A06722BB2FA7F0030A21B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		931A06752BB2FA7F0030A21B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		931A067E2BB2FBE10030A21B /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		931A06812BB306F30030A21B /* OnboardingScreen_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen_1.swift; sourceTree = "<group>"; };
+		931A06832BB319C80030A21B /* OnboardingScreen_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen_2.swift; sourceTree = "<group>"; };
+		931A06852BB31D030030A21B /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		931A06872BB324D80030A21B /* FeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesView.swift; sourceTree = "<group>"; };
+		931A068A2BB326E80030A21B /* FeatureModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureModels.swift; sourceTree = "<group>"; };
+		9335B1212BB8552D00B33D3E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		9335B1232BB8566D00B33D3E /* Capital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capital.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		931A06682BB2FA7D0030A21B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		931A06622BB2FA7D0030A21B = {
+			isa = PBXGroup;
+			children = (
+				931A066D2BB2FA7D0030A21B /* CarPark */,
+				931A066C2BB2FA7D0030A21B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		931A066C2BB2FA7D0030A21B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				931A066B2BB2FA7D0030A21B /* CarPark.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		931A066D2BB2FA7D0030A21B /* CarPark */ = {
+			isa = PBXGroup;
+			children = (
+				931A06892BB326CC0030A21B /* Models */,
+				931A06802BB2FBE90030A21B /* Views */,
+				931A066E2BB2FA7D0030A21B /* CarParkApp.swift */,
+				931A06702BB2FA7D0030A21B /* ContentView.swift */,
+				931A06722BB2FA7F0030A21B /* Assets.xcassets */,
+				931A06742BB2FA7F0030A21B /* Preview Content */,
+			);
+			path = CarPark;
+			sourceTree = "<group>";
+		};
+		931A06742BB2FA7F0030A21B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				931A06752BB2FA7F0030A21B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		931A06802BB2FBE90030A21B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				931A067E2BB2FBE10030A21B /* LaunchScreen.swift */,
+				931A06812BB306F30030A21B /* OnboardingScreen_1.swift */,
+				931A06832BB319C80030A21B /* OnboardingScreen_2.swift */,
+				931A06852BB31D030030A21B /* HomeScreen.swift */,
+				931A06872BB324D80030A21B /* FeaturesView.swift */,
+				9335B1212BB8552D00B33D3E /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		931A06892BB326CC0030A21B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				931A068A2BB326E80030A21B /* FeatureModels.swift */,
+				9335B1232BB8566D00B33D3E /* Capital.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		931A066A2BB2FA7D0030A21B /* CarPark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 931A06792BB2FA7F0030A21B /* Build configuration list for PBXNativeTarget "CarPark" */;
+			buildPhases = (
+				931A06672BB2FA7D0030A21B /* Sources */,
+				931A06682BB2FA7D0030A21B /* Frameworks */,
+				931A06692BB2FA7D0030A21B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarPark;
+			productName = CarPark;
+			productReference = 931A066B2BB2FA7D0030A21B /* CarPark.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		931A06632BB2FA7D0030A21B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					931A066A2BB2FA7D0030A21B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 931A06662BB2FA7D0030A21B /* Build configuration list for PBXProject "CarPark" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 931A06622BB2FA7D0030A21B;
+			productRefGroup = 931A066C2BB2FA7D0030A21B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				931A066A2BB2FA7D0030A21B /* CarPark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		931A06692BB2FA7D0030A21B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931A06762BB2FA7F0030A21B /* Preview Assets.xcassets in Resources */,
+				931A06732BB2FA7F0030A21B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		931A06672BB2FA7D0030A21B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931A06842BB319C80030A21B /* OnboardingScreen_2.swift in Sources */,
+				931A06712BB2FA7D0030A21B /* ContentView.swift in Sources */,
+				931A06862BB31D030030A21B /* HomeScreen.swift in Sources */,
+				931A066F2BB2FA7D0030A21B /* CarParkApp.swift in Sources */,
+				9335B1242BB8566D00B33D3E /* Capital.swift in Sources */,
+				931A06822BB306F30030A21B /* OnboardingScreen_1.swift in Sources */,
+				931A067F2BB2FBE10030A21B /* LaunchScreen.swift in Sources */,
+				931A068B2BB326E80030A21B /* FeatureModels.swift in Sources */,
+				9335B1222BB8552D00B33D3E /* MapView.swift in Sources */,
+				931A06882BB324D80030A21B /* FeaturesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		931A06772BB2FA7F0030A21B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		931A06782BB2FA7F0030A21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		931A067A2BB2FA7F0030A21B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarPark/Preview Content\"";
+				DEVELOPMENT_TEAM = 6QV97W782Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hellochicken.CarPark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		931A067B2BB2FA7F0030A21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarPark/Preview Content\"";
+				DEVELOPMENT_TEAM = 6QV97W782Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hellochicken.CarPark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		931A06662BB2FA7D0030A21B /* Build configuration list for PBXProject "CarPark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931A06772BB2FA7F0030A21B /* Debug */,
+				931A06782BB2FA7F0030A21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		931A06792BB2FA7F0030A21B /* Build configuration list for PBXNativeTarget "CarPark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931A067A2BB2FA7F0030A21B /* Debug */,
+				931A067B2BB2FA7F0030A21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 931A06632BB2FA7D0030A21B /* Project object */;
+}
