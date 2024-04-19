@@ -19,6 +19,7 @@
 		931A068B2BB326E80030A21B /* FeatureModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A068A2BB326E80030A21B /* FeatureModels.swift */; };
 		9335B1222BB8552D00B33D3E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9335B1212BB8552D00B33D3E /* MapView.swift */; };
 		9335B1242BB8566D00B33D3E /* Capital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9335B1232BB8566D00B33D3E /* Capital.swift */; };
+		937B0D482BBD8F9100EA6330 /* ChargingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937B0D472BBD8F9100EA6330 /* ChargingScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		931A068A2BB326E80030A21B /* FeatureModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureModels.swift; sourceTree = "<group>"; };
 		9335B1212BB8552D00B33D3E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		9335B1232BB8566D00B33D3E /* Capital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capital.swift; sourceTree = "<group>"; };
+		937B0D472BBD8F9100EA6330 /* ChargingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				931A06852BB31D030030A21B /* HomeScreen.swift */,
 				931A06872BB324D80030A21B /* FeaturesView.swift */,
 				9335B1212BB8552D00B33D3E /* MapView.swift */,
+				937B0D472BBD8F9100EA6330 /* ChargingScreen.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				931A06862BB31D030030A21B /* HomeScreen.swift in Sources */,
 				931A066F2BB2FA7D0030A21B /* CarParkApp.swift in Sources */,
 				9335B1242BB8566D00B33D3E /* Capital.swift in Sources */,
+				937B0D482BBD8F9100EA6330 /* ChargingScreen.swift in Sources */,
 				931A06822BB306F30030A21B /* OnboardingScreen_1.swift in Sources */,
 				931A067F2BB2FBE10030A21B /* LaunchScreen.swift in Sources */,
 				931A068B2BB326E80030A21B /* FeatureModels.swift in Sources */,

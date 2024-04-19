@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct ChargingScreen: View {
+    @State private var bottomSheetView3 = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            Label("Reserve Electricity", systemImage: "bolt.circle")
+            
+                .toolbar {
+                            ToolbarItem(placement: .navigationBarLeading) {
+                                NavigationLink {
+                                    BottomSheetView3()
+                                } label: {
+                                    Image(systemName: "chevron.left")
+                                }
+                            }
+                        }
+                }
     }
 }
 
