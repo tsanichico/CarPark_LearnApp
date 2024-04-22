@@ -276,8 +276,9 @@ struct BottomSheetView3: View {
                 .padding(.bottom, 10)
                 NavigationLink("End Parking") {
                     ChargingScreen()
-                        .navigationBarBackButtonHidden(true)
+                       
                 }
+                .navigationBarBackButtonHidden(true)
                 .font(.title3)
                 .frame(maxWidth: .infinity)
                 .frame(height: 75)
