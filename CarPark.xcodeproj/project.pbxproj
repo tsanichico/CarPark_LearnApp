@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		930F715A2BD7E7F900CD5246 /* ChargingPorts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930F71592BD7E7F900CD5246 /* ChargingPorts.swift */; };
 		931A066F2BB2FA7D0030A21B /* CarParkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A066E2BB2FA7D0030A21B /* CarParkApp.swift */; };
 		931A06712BB2FA7D0030A21B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931A06702BB2FA7D0030A21B /* ContentView.swift */; };
 		931A06732BB2FA7F0030A21B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931A06722BB2FA7F0030A21B /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		930F71592BD7E7F900CD5246 /* ChargingPorts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingPorts.swift; sourceTree = "<group>"; };
 		931A066B2BB2FA7D0030A21B /* CarPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		931A066E2BB2FA7D0030A21B /* CarParkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarParkApp.swift; sourceTree = "<group>"; };
 		931A06702BB2FA7D0030A21B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				931A06872BB324D80030A21B /* FeaturesView.swift */,
 				9335B1212BB8552D00B33D3E /* MapView.swift */,
 				937B0D472BBD8F9100EA6330 /* ChargingScreen.swift */,
+				930F71592BD7E7F900CD5246 /* ChargingPorts.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				931A06822BB306F30030A21B /* OnboardingScreen_1.swift in Sources */,
 				931A067F2BB2FBE10030A21B /* LaunchScreen.swift in Sources */,
 				931A068B2BB326E80030A21B /* FeatureModels.swift in Sources */,
+				930F715A2BD7E7F900CD5246 /* ChargingPorts.swift in Sources */,
 				9335B1222BB8552D00B33D3E /* MapView.swift in Sources */,
 				931A06882BB324D80030A21B /* FeaturesView.swift in Sources */,
 			);
@@ -327,6 +331,7 @@
 				DEVELOPMENT_TEAM = 6QV97W782Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Asking permission to access your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -357,6 +362,7 @@
 				DEVELOPMENT_TEAM = 6QV97W782Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Asking permission to access your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

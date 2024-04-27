@@ -10,7 +10,8 @@ import MapKit
 
 struct MapView: View {
     @State private var showingBottomSheet = false
-
+    @Environment(\.dismiss) var dismiss
+    @Namespace var mapScope
     
     var body: some View {
         ZStack{
@@ -33,21 +34,29 @@ struct MapView: View {
                 }
             }
             VStack(alignment: .leading){
-                                HStack(alignment: .top){
-                                    Image(systemName: "chevron.left")
-                                        .aspectRatio(contentMode: .fit)
-                                        .frame(width: 30, height: 30)
-                                    Spacer()
-                                }
+                Button{
+                    dismiss()
+                } label: {
+                    HStack(alignment: .top){
+                        Image(systemName: "chevron.left")
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 30, height: 30)
+                            .foregroundStyle(Color.white)
+                        Spacer()
+                    }
+                }
+                                
                                 Spacer()
             }.padding(20)
         }
+        .navigationBarBackButtonHidden(true)
         .mapStyle(.hybrid(elevation: .automatic))
         .mapControls {
-            MapUserLocationButton()
+            MapUserLocationButton(scope: mapScope)
             MapCompass()
             MapScaleView()
         }
+        .mapScope(mapScope)
     }
 }
 

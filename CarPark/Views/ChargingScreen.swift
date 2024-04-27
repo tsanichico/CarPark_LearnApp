@@ -11,6 +11,7 @@ import SwiftUI
 
 struct ChargingScreen: View {
 
+    
     @Environment(\.dismiss) var dismiss
     
     @State var maxHeight : CGFloat = UIScreen.main.bounds.height/3
@@ -113,15 +114,21 @@ struct ChargingScreen: View {
                     .font(.title)
                     .fontWeight(.bold)
                     .padding(.bottom, 30)
-                Button ("Tap to continue"){
-                    //
+                NavigationLink {
+                    ChargingPorts()
+                } label: {
+                    Text ("Tap to continue")
+                    .font(.title3)
+                    .frame(maxWidth: .infinity, alignment: .bottom)
+                    .frame(height: 60)
+                    .background(Color.yellow)
+                    .cornerRadius(.infinity)
+                    .foregroundStyle(Color.black)
                 }
-                .font(.title3)
-                .frame(maxWidth: .infinity, alignment: .bottom)
-                .frame(height: 60)
-                .background(Color.yellow)
-                .cornerRadius(.infinity)
-                .foregroundStyle(Color.black)
+                
+          
+
+                
                 
                     
                 
