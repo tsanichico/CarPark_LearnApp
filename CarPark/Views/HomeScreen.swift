@@ -50,6 +50,7 @@ struct HomeScreen: View {
                             
                             
                             HStack {
+                                Spacer()
                                 ForEach(dataFeatures) {data in
                                     FeaturesView(fitur: data)}
                             }
@@ -59,16 +60,12 @@ struct HomeScreen: View {
                                         Image("street")
                                             .resizable()
                                             .aspectRatio(contentMode: .fit)
-                                        //                                    .frame(maxWidth: .infinity)
                                         Image("mobil")
                                             .resizable()
                                             .aspectRatio(contentMode: .fit)
-                                        //                                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                                        
                                         Image("street")
                                             .resizable()
                                             .aspectRatio(contentMode: .fit)
-                                        //                   .frame(maxWidth: .infinity)
                                     }
                                 }.frame(maxWidth: .infinity)
                                 VStack{

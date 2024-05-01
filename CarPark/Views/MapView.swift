@@ -46,7 +46,7 @@ struct MapView: View {
                     }
                 }
                                 
-                                Spacer()
+                Spacer()
             }.padding(20)
         }
         .navigationBarBackButtonHidden(true)

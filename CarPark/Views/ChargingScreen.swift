@@ -40,15 +40,6 @@ struct ChargingScreen: View {
 
                             }
                         }
-//                        .toolbar {
-//                            ToolbarItem(placement: .navigationBarLeading) {
-//                                NavigationLink {
-//                                    BottomSheetView3()
-//                                } label: {
-//                                    Image(systemName: "chevron.left")
-//                                }
-//                            }
-//                        }
                         .padding(.bottom, 10)
                     Text("How much energy do you need")
                         .font(.largeTitle)

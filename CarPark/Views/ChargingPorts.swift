@@ -98,13 +98,15 @@ struct ChargingPorts: View {
             .padding(20)
             
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .navigationBarBackButtonHidden(true)
            
-        }
+           
+        } .navigationBarBackButtonHidden(true)
     }
 }
 
 struct ChargingPortsBottom1: View {
+    @State var showSheet = false
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -205,8 +207,8 @@ struct ChargingPortsBottom1: View {
                             .foregroundStyle(Color.white)
                             .fontWeight(.bold)
                     }.padding(.horizontal)
-                    NavigationLink {
-                        
+                    Button {
+                        showSheet = true
                     } label: {
                         Text ("Continue")
                         .font(.title3)
@@ -215,10 +217,15 @@ struct ChargingPortsBottom1: View {
                         .background(Color.yellow)
                         .cornerRadius(.infinity)
                         .foregroundStyle(Color.black)
+                        
+                    }
+                    .fullScreenCover(isPresented: $showSheet) {
+                        MultiplePayment()
                     }
                 }
+                
             }.padding(20)
-        }
+        }.navigationBarBackButtonHidden(true)
     }
 }
 

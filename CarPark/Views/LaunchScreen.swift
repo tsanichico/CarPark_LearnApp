@@ -17,26 +17,18 @@ struct LaunchScreen: View {
                 if self.isActive {
                     OnboardingScreen_1()
                 } else {
-                    ZStack{
-                        Circle()
-                            .frame(width: 300)
-                            .foregroundStyle(Color.greyScale4)
-                        Circle()
-                            .frame(width: 200)
-                            .foregroundStyle(Color.white)
-                        VStack{
-                            Image(systemName: "car.front.waves.up")
+                            Image("logopark")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
-                                .frame(width: 90, height: 80)
+                                .frame(width: 100, height: 100)
                                 .foregroundStyle(Color.black)
-                                .padding(.bottom, 10)
-                            
-                            Text("CarPark")
-                                .font(.title)
-                                .fontWeight(.semibold)
-                                .foregroundStyle(Color.black)
-                        }
+                                .cornerRadius(20)
+                }
+            }
+            .onAppear {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                    withAnimation {
+                        self.isActive = true
                     }
                 }
             }
