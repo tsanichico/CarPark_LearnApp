@@ -50,10 +50,10 @@ struct HomeScreen: View {
                             
                             
                             HStack {
-                                Spacer()
                                 ForEach(dataFeatures) {data in
                                     FeaturesView(fitur: data)}
-                            }
+                                
+                            }.frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
                             ZStack{
                                 VStack(alignment: .center){
                                     HStack{

@@ -106,7 +106,7 @@ struct ChargingPorts: View {
 
 struct ChargingPortsBottom1: View {
     @State var showSheet = false
-    
+    @Environment(\.dismiss) var dismiss
     var body: some View {
         NavigationView {
             VStack {
@@ -115,10 +115,16 @@ struct ChargingPortsBottom1: View {
                         .font(.title)
                         .fontWeight(.semibold)
                     Spacer()
-                    Image(systemName: "xmark.circle")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 35, height: 35)
+                    Button {
+                        dismiss()
+                    } label: {
+                        Image(systemName: "xmark.circle")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 35, height: 35)
+                            .foregroundStyle(Color.white)
+                    }
+                    
                 }
                 HStack {
                     Circle()
@@ -156,7 +162,6 @@ struct ChargingPortsBottom1: View {
                 }
                 HStack{
                     Circle()
-                    
                         .stroke(Color.white)
                         .frame(width: 80, height: 80)
                         .overlay {
