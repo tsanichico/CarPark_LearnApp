@@ -1,4 +1,4 @@
-#  CarPark-FakeProjectApp
+#  CarPark
 This is a fake project name is Car Parking App, which allows you to find place for parking of the car and also charging the car while parking. Build used SwiftUI.
 
 # Screenshot
@@ -19,7 +19,3 @@ To run this app, you need :
 - Clone this repository to your local machine using Git:
    ```bash
    git clone https://github.com/tsanichico/CarPark_LearnApp.git
-  
-    
-
-
