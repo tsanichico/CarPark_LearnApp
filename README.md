@@ -2,7 +2,7 @@
 This is a fake project name is Car Parking App, which allows you to find place for parking of the car and also charging the car while parking. Build used SwiftUI.
 
 # Screenshot
-<img width="1409" alt="screenshoot" src="https://github.com/tsanichico/CarPark_LearnApp/assets/57589714/71a7e1b5-b1d8-44b0-ade2-e4a9222551dd">
+<img width="1409" alt="screenshoot" src="https://github.com/tsanichico/CarPark_LearnApp/assets/57589714/ff761deb-82c9-41e2-ba4e-fb0643302a39">
 
 # Features
 - Simulate a parking of the car using app
