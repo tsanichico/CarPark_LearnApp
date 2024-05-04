@@ -44,6 +44,7 @@
 		9335B1232BB8566D00B33D3E /* Capital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capital.swift; sourceTree = "<group>"; };
 		9346A2712BE3A822001E3FD8 /* BookingProgress_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingProgress_1.swift; sourceTree = "<group>"; };
 		9346A2732BE3A8B4001E3FD8 /* BookingProgress_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingProgress_2.swift; sourceTree = "<group>"; };
+		9346A2752BE3B919001E3FD8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		937B0D472BBD8F9100EA6330 /* ChargingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingScreen.swift; sourceTree = "<group>"; };
 		938725622BDD1F99004BD536 /* MultiplePayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplePayment.swift; sourceTree = "<group>"; };
 		938725642BDFD1E7004BD536 /* ParkingTicketDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingTicketDetails.swift; sourceTree = "<group>"; };
@@ -63,6 +64,7 @@
 		931A06622BB2FA7D0030A21B = {
 			isa = PBXGroup;
 			children = (
+				9346A2752BE3B919001E3FD8 /* README.md */,
 				931A066D2BB2FA7D0030A21B /* CarPark */,
 				931A066C2BB2FA7D0030A21B /* Products */,
 			);
